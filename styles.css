@@ -1,0 +1,92 @@
+/* {
+  border: 1px dashed red;
+  min-height: 10px;
+}*/
+
+body {
+  margin: 0;
+  background: rgb(138, 189, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(138, 189, 194, 1) 0%,
+    rgba(240, 11, 217, 0.4220281862745098) 56%,
+    rgba(217, 18, 187, 0.20354079131652658) 100%
+  );
+}
+div {
+  box-sizing: border-box;
+}
+header {
+  background: white;
+  padding: 10px;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.icons {
+  background-color: white;
+  font-size: 30px;
+  width: 600px;
+  padding-top: 20px;
+}
+
+.post {
+  background: white;
+  border-radius: 20px;
+}
+
+.post img {
+  width: 100%;
+  margin-top: 10px;
+}
+.post h2,
+.post p {
+  padding: 10px;
+  margin: 0;
+}
+
+.div-break {
+  height: 20px;
+}
+
+div.post .post-header div:first-child {
+  display: inline-block;
+  width: 80%;
+}
+div.post .post-header div:last-child {
+  display: inline-block;
+  width: 19%;
+  padding: 10px;
+  text-align: right;
+  color: grey;
+}
+
+h1 {
+  background-color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  height: 500px;
+  width: 600px;
+  margin: auto;
+}
+h2 {
+  width: 600px;
+  display: flex;
+}
+
+.bookmark {
+  float: right;
+  padding-right: 20px;
+}
